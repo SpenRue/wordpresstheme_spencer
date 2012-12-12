@@ -1,0 +1,55 @@
+/*
+Theme Name: My First Wordpress theme
+Theme URI: http://wordpress.org/extend/themes/twentyeleven
+Author: Spencer Rue
+Author URI: http://ruewebdesign.tk/
+Description: The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. Make it yours with a custom menu, header image, and background -- then go further with available theme options for light or dark color scheme, custom link colors, and three layout choices. Twenty Eleven comes equipped with a Showcase page template that transforms your front page into a showcase to show off your best content, widget support galore (sidebar, three footer areas, and a Showcase page widget area), and a custom "Ephemera" widget to display your Aside, Link, Quote, or Status posts. Included are styles for print and for the admin editor, support for featured images (as custom header images on posts and pages and as large images on featured "sticky" posts), and special styles for six different post formats.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+#wrapper {
+	width:970px;
+	margin:15px auto;
+	padding:15px;
+}
+
+header {
+	color:#fff;
+	background-image: -webkit-gradient(linear,0% 0%, 0% 100%,from(#555),to(#222));
+	padding:10px;
+	text-shadow:0px -1.5px 0px #222;
+	
+}
+
+header h1 {
+	margin-left:5px;
+}
+
+.alignright {
+	float: right;
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav ul li {
+	float:right;
+	margin-top:10px;
+}
+
+nav ul li a {
+	color:#000;
+	font-size:17pt;
+	padding:15px;
+	
+	
+}
+
+nav ul li a:HOVER {
+
+	text-decoration:none;
+	color:#000;
+}
