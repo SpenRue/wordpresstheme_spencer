@@ -15,12 +15,20 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	padding:15px;
 }
 
+body {
+	background-color: #ddd;
+/* 	background-image: -webkit-gradient(linear,0% 0%, 0% 100%, from(#ccc), to(#999)); */
+/* 	height:100%; */
+/* 	background: top center no-repeat; */
+}
+
 header {
 	color:#fff;
 	background-image: -webkit-gradient(linear,0% 0%, 0% 100%,from(#555),to(#222));
 	padding:10px;
 	text-shadow:0px -1.5px 0px #222;
-	
+	border-radius:10px;
+/* 	box-shadow:0px 3px 5px #999; */
 }
 
 header h1 {
@@ -33,23 +41,72 @@ header h1 {
 
 nav ul {
 	list-style:none;
+	margin:0px;
 }
 
 nav ul li {
-	float:right;
-	margin-top:10px;
+	float:left;
+	margin-top:23px;
 }
 
 nav ul li a {
-	color:#000;
+	color:#222;
 	font-size:17pt;
-	padding:15px;
-	
+	padding:20px;
+	background-image:-webkit-gradient(linear,0%);
+	-webkit-transition:-webkit-transform 1s;
+	-webkit-transition:text-shadow .5s; /* Safari and Chrome */
+	text-decoration:none;
 	
 }
 
 nav ul li a:HOVER {
-
+	text-shadow:0px 2px 3px #999;
 	text-decoration:none;
+	-webkit-transform: translateY(-5px); /* Safari and Chrome */
 	color:#000;
+	
+}
+
+h2 a{
+	color:#222;
+}
+
+h2 a:hover {
+	text-decoration:none;
+	color:#fa0;
+}
+
+nav ul li:FIRST-CHILD a {
+	padding-left:0px;
+}
+
+#search {
+	float:right;
+	margin-top:20px;
+}
+
+#main	{
+	margin-top:70px;
+	background-color:#fff;
+	padding:15px;
+	border-radius:15px;
+/* 	box-shadow:0px 3px 2px #999; */
+	color:fff;
+}
+
+.highlight {
+	box-shadow: 0px 5px 15px #999;
+	-webkit-transition:box-shadow 1s;
+}
+
+img {
+	margin:0px 0px 15px 15px;
+	border:5px solid #eee;
+	border-radius: 4px;
+}
+
+footer{
+	margin-top:60px;
+	text-align:center;
 }
